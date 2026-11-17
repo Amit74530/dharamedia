@@ -10,15 +10,15 @@ export const metadata: Metadata = {
 const sections = [
   {
     heading: "Information you provide",
-    body: "The project enquiry form opens a message in your own email application. This website does not submit or store the information entered in that form. Your email provider handles the message when you choose to send it.",
+    body: "When you submit the project enquiry form, your name, email address, optional business name and project details are sent to Dhara Media by email through Web3Forms, our form processing service. The website does not store these form submissions; it temporarily processes request IP information to limit automated submissions. If you choose the email or WhatsApp fallback, your details are sent directly through the service you select. Web3Forms processes form submissions to forward them; review its privacy information for details about its handling and retention.",
   },
   {
     heading: "Website activity",
-    body: "This website does not currently use analytics or advertising cookies. The hosting provider may process standard technical information needed to deliver and protect the website. Please refer to the provider's privacy information for details.",
+    body: "When the optional Plausible Analytics domain is configured, this website loads Plausible to report aggregate visits and selected interactions such as audit CTA clicks, successful form submissions, WhatsApp clicks and phone clicks. Analytics is not loaded when the setting is empty. The hosting provider may also process standard technical information needed to deliver and protect the website. Please refer to those providers' privacy information for details.",
   },
   {
     heading: "Changes to this page",
-    body: "This notice may be updated when the website or its services change. If a form service, analytics tool or other data collection is added, this page should be updated to explain how that information is handled.",
+    body: "This notice may be updated when the website or its services change. Analytics remains optional and is enabled only when the site owner configures the analytics domain.",
   },
 ];
 
